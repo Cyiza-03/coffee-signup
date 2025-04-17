@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Macondo&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+
+}
+body{
+    background-image: url(shopback.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;    
+
+}
+.allElements{
+    display: flex;
+    border: 1px solid transparent;
+    background-color:rgba(100, 96, 96, 0.7);
+    margin:1em 4em;
+    width: max-content;
+    border-radius: 15px;
+}
+form{
+    border: 1px solid transparent;
+    border-radius: 15px;
+    background-color: rgba(128, 128, 128, 0.2);
+    margin: 2em;
+    text-align: center;
+    height: 700px;
+}
+form h2{
+    color: white;
+    font-size: 25px;
+    font-weight: bolder;
+    font-family: "Macondo", cursive;
+    text-align: center;
+    margin: 20px;
+}
+form p{
+    color: white;
+    margin: 25px;
+}
+form a{
+    text-decoration: none;
+    color: white;
+    font-weight: bolder;
+
+}
+form a:hover{
+    text-decoration: underline;
+    color: goldenrod;
+    cursor: pointer;
+}
+.icons a{
+    border: 1px solid rgba(255, 255, 255, 0.781);
+    margin-left:20px ;
+    padding-left: 4em;
+    padding-right: 4em;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 5px;
+    width: 100px;
+    background-color: rgba(128, 128, 128, 0.822);
+}
+.icons a:hover{
+    color: rgba(77, 24, 5, 1);;
+    cursor: pointer;
+}
+#password, #email{
+    width: 400px;
+    height: 40px;
+    margin: 20px;
+    padding: 5px;
+    border-radius: 5px;
+    border: none;
+    background-color:rgba(255, 255, 255, 0.9) ;
+}
+.names input{
+    width:185px;
+    height: 40px;
+    margin: 5px;
+    padding: 5px;
+    border-radius: 5px;
+    background-color:rgba(255, 255, 255, 0.9) ;
+    border: none;
+}
+
+#signupBtn{
+    color: white;
+    text-align: center;
+    background-color: rgba(110, 25, 25, 0.9);
+    border: none;
+    border-radius: 10px;
+    width: 400px;
+    height: 40px;
+}
+#signupBtn:hover{
+    background-color:rgba(110, 25, 25, 1) ;
+    cursor: pointer;
+}
+
+.imageDiv{
+    margin: 2em;
+    border: 1px solid transparent;
+    border-radius: 15px;
+    background-image:url(dalgona.jpeg) ;
+    opacity: 80%;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.title{
+    display: flex;
+    margin: 20px;
+    gap: 20rem;
+    padding-bottom: 15em;
+    padding-top: 10px;
+}
+.title p{
+    font-family:"Macondo", cursive ;
+    font-weight:bolder ;
+    color: white;
+    font-size: 25px;
+    
+}
+.backhome{
+    background-color: transparent;
+    border: none;
+}
+.backhome a{
+    border-radius: 10px;
+    padding: 10px;
+    text-decoration: none;
+    font-size: 17px;
+    color:black;
+    background-color: white; 
+    font-weight: bolder;
+}
+.backhome a:hover{
+    background-color: rgba(128, 128, 128, 0.76);
+    color: white;
+}
